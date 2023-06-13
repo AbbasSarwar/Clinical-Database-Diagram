@@ -88,10 +88,9 @@ In order to run this project you need:
 ### Usage
 -step 1: create Database Clinical
 -step 2: create tables given in files
-..
 
 ### Run test
--Command: npm start
+-Command: Run through postgresql / SQL terminal
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,7 +114,8 @@ In order to run this project you need:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[More Flexability UI]**
+- [ ] **[**]**
+- [ ] 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -132,7 +132,7 @@ Contributions, issues, and feature requests are welcome!
 ## ⭐️ Show your support <a name="support"></a>
 
 
-If you like my Todo statup project kindly comment or Follow me on LinkedIn, Twitter & twitter and always Your feedback will be really appreciated I have created issue if you want to share.
+If you like my Database project kindly comment or Follow me on LinkedIn, Twitter & twitter and always Your feedback will be really appreciated I have created issue if you want to share.
 Thanks. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
