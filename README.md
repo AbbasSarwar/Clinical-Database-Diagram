@@ -9,7 +9,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Vet\_clinic\] ](#-vet_clinic-)
+- [📖 \[Clinical Database Diagram\] ](#-clinical-database-diagram-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -28,7 +28,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Vet_clinic] <a name="about-project"></a>
+# 📖 [Clinical Database Diagram] <a name="about-project"></a>
 
 **[Clinical Database Diagram]** is a simple Database converted from Diagram.
 
