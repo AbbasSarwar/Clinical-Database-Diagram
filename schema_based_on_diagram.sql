@@ -24,6 +24,12 @@ Create TABLE treatments (
     name varchar (100)
 )
 
+//JOINT TABLE for MANY TO MANY
+CREATE TABLE medical_Treatment (
+    medical_id int REFERENCES medical_histories (id),
+    treatments_id int REFERENCES treatments (id)
+)
+
 ALTER TABLE treatments 
 ADD FOREIGN KEY (id)
 REFERENCES medical_histories (id) 
@@ -52,3 +58,11 @@ CREATE TABLE invoices (
 ALTER TABLE invoice_items
 ADD FOREIGN KEY (invoice_id)
 REFERENCES invoices (id)
+
+//Indexes
+CREATE INDEX ON medical_histories (patient_id)
+CREATE INDEX ON medical_Treatment (medical_id)
+CREATE INDEX ON medical_Treatment (treatments_id)
+CREATE INDEX ON invoice_items (invoice_id)
+CREATE INDEX ON invoice_items (treatment_id)
+CREATE INDEX ON invoices (medical_history_id)
